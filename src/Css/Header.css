@@ -1,0 +1,60 @@
+.navbar{
+    border:0px solid red;
+    padding: 15px 20px!important;
+    background: rgba(131, 108, 214, 0.2)!important;
+}
+.custom-navbar .navbar-brand img{
+    width: 125px;
+}
+.custom-navbar .nav-item{
+    margin: 0px 25px;
+}
+.custom-navbar .nav-link{
+    font-weight: 700!important;
+    font-size: 16px!important;
+    color: #333!important;
+    text-transform: capitalize!important;
+}
+.custom-navbar .menu-button .login{
+    color: #FF76B3;
+    background: white;
+    padding: 5px 20px!important;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 12px;
+    border-radius: 17px;
+}
+.custom-navbar .menu-button .signup{
+    color:white;
+    background: #FF76B3;
+    padding: 5px 20px!important;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 17px;
+}
+.custom-navbar .nav-country{
+    display: flex;
+    align-items: center;
+    color: #606060;
+}
+.clr-blur{
+    color: #606060!important;
+}
+
+
+@media screen and (max-width:500px){
+    .navbar{
+        padding: 15px 5px!important;
+    }
+    .custom-navbar .navbar-toggler{
+        padding: 4px!important;
+    }
+    .custom-navbar .navbar-brand img {
+        width: 95px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .custom-navbar .nav-item {
+        margin: 0px 5px;
+    }
+}

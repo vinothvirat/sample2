@@ -1,0 +1,257 @@
+.about-container{
+    border:0px solid red;
+}
+.aboutBanner-content h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    color: #5F6981;
+    cursor: pointer;
+}
+.aboutBanner-content span{
+    padding: 5px;
+    font-size: 20px;
+}
+.aboutBanner-content strong{
+    font-size: 16px;
+    line-height: 60px;
+    color: #7B68EE;
+}
+.aboutBanner-content h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #333333;
+    text-transform: capitalize;
+}
+.aboutBanner-content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #5F6981;
+}
+.aboutBanner{
+    padding: 75px 0px;
+}
+.aboutGallery{
+    padding-bottom: 50px;
+}
+.aboutGallery-image{
+    border: 0px solid red;
+}
+.aboutGallery-image1 img, .aboutGallery-image5 img{
+    border: 0px solid red;
+    width: 80%;
+}
+.aboutGallery-image2 img, .aboutGallery-image4 img{
+    border: 0px solid red;
+    width: 100%;
+}
+.aboutGallery-image3 img{
+    border: 0px solid red;
+    width: 85%;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.p-10{
+    padding:10px;
+}
+
+
+
+.rating-container{
+    border: 0px solid red;
+    padding-bottom: 45px;
+}
+.rating-content{
+    border: 0px solid red;
+    text-align: center;
+    padding: 20px 0px;
+}
+.rating-content h1{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    color: #7B68EE;
+}
+.rating-content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;  
+    color: #333333;
+}
+
+
+.overview-container{
+    background: #f8fffd26;
+    box-shadow: 0px 15px 40px rgb(41 39 131 / 7%);
+    border-radius: 50px;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+.overview-card{
+    border: 0px solid red;
+}
+.overview-content{
+    border: 0px solid red;
+}
+.overview-card h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+    text-transform: capitalize;
+}
+.overview-image{
+    margin:30px 0px;
+}
+.overview-image img{
+    width: 55%;
+}
+.overview-content h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    color: #2D2D2D;
+}
+.overview-content .check{
+    color: #08C873;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.overview-subtitle p{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5F6981;
+}
+.overview-subtitle{
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+}
+.overview-para{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5F6981;
+    margin-top: 10px;
+}
+
+
+.business-container{
+    border:0px solid red;
+    padding: 50px 0px;
+}
+.business-container h6{
+    font-size: 26px;
+    line-height: 50px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.company-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+.company-list img{
+    margin:20px;
+}
+.business-image img{
+    width:55%;
+    display: block;
+    margin: 0px auto;
+}
+.business-image{
+    position: relative;
+}
+.business-overlap{
+    
+    width: 87%;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background: #85CC9B;
+    border-radius: 20px;
+    padding: 30px 60px;
+    background-image:url('../Images/Mask group (2).png');
+    background-repeat: no-repeat;
+}
+.business-overlap h3{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    color: white;
+}
+.business-store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.business-store img{
+    border: 0px solid red;
+    width: 135px;
+    margin: 15px;
+}
+.business-card{
+    margin-top: 40px;
+}
+
+
+.about-testimonial{
+    border: 0px solid red;
+}
+
+
+@media screen and (max-width:1050px){
+    .company-list {
+        justify-content: center;
+    }
+    .business-overlap {
+        position: static;
+        padding: 15px 15px;
+        margin-top:25px;
+    }
+    .business-overlap h3{
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width:575px){    
+    .aboutBanner{
+        padding: 30px 0px;
+    }
+    .aboutBanner-content h1 {
+        font-size: 40px;
+    }
+    .aboutBanner-content p {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .overview-container {
+        padding: 20px;
+    }
+    .overview-card h1 {
+        font-size: 32px;
+    }
+    .rating-content {
+        padding: 10px 0px;
+    }
+    .rating-content h1 {
+        font-size: 46px;
+    }
+}
